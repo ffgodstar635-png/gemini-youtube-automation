@@ -133,7 +133,7 @@ def produce_lesson_videos(lesson):
     long_desc = f"Part of the 'AI for Developers' series by {YOUR_NAME}.\n\nToday's Lesson: {lesson['title']}\n\n{hashtags}"
     long_tags = "AI, Artificial Intelligence, Developer, Programming, Tutorial, " + lesson['title'].replace(" ", ", ")
 
-    long_video_id = upload_to_youtube(
+    long_video_id = None # upload_to_youtube(
         long_video_path,
         lesson['title'],
         long_desc,
