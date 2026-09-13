@@ -134,12 +134,12 @@ def produce_lesson_videos(lesson):
     long_tags = "AI, Artificial Intelligence, Developer, Programming, Tutorial, " + lesson['title'].replace(" ", ", ")
 
     long_video_id = None # upload_to_youtube(
-        long_video_path,
-        lesson['title'],
-        long_desc,
-        long_tags,
-        long_thumb_path
-    )
+       # long_video_path,
+       # lesson['title'],
+       # long_desc,
+       # long_tags,
+       # long_thumb_path
+   # )
 
     if long_video_id:
         print("⏳ Waiting 30 seconds before uploading the short...")
